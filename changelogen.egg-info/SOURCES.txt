@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-changelogen.egg-info/PKG-INFO
-changelogen.egg-info/SOURCES.txt
-changelogen.egg-info/dependency_links.txt
-changelogen.egg-info/not-zip-safe
-changelogen.egg-info/top_level.txt
