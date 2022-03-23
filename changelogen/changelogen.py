@@ -1,5 +1,6 @@
 """
-    ZLOG Simple Changelog Generator for Github Log
+    CHANGELOGEN 
+    Simple Changelog Generator for Github Log
     Copyright (C) 2021 Bengart Zakhar
 
     This program is free software: you can redistribute it and/or modify
@@ -16,7 +17,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
     Description:
-        Main module for ZLOG
+        Main module for CHANGELOGEN
 
     Author:
         Bengart Zakhar
@@ -25,7 +26,7 @@
 import os
 import subprocess
 
-class Zlog():
+class Changelogen():
     def __init__(self, log_format='md'):
         self.logs = []
         self.tags = []
@@ -80,8 +81,8 @@ class Zlog():
             print(d)
 
 def main(log_format='md'):
-    log = Zlog(log_format)
-    log.get_tag()
-    log.get_commit()
-    log.print()
-    log.save()
+    changelogen = Changelogen(log_format)
+    changelogen.get_tag()
+    changelogen.get_commit()
+    changelogen.print()
+    changelogen.save()

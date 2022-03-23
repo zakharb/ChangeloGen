@@ -1,5 +1,5 @@
 """
-    LOGEN
+    CHANGELOGEN
     Simple Changelog Generator for Github Log
     Copyright (C) 2022
 
@@ -29,7 +29,7 @@ import sys
 import argparse
 import pkg_resources
 
-from logen.logen import main
+from changelogen.changelogen import main
 
 def showlicense():
     license = ('Simple Changelog Generator for Github Log\n'
@@ -47,19 +47,19 @@ def showlicense():
     print(license)
 
 if __name__ == "__main__":
-    version = pkg_resources.get_distribution('logen').version
-    print('ZLOG {} Simple Changelog Generator for Github Log\n'
+    version = pkg_resources.get_distribution('changelogen').version
+    print('CHANGELOGEN {} Simple Changelog Generator for Github Log\n'
           'Copyright (C) 2021 Bengart Zakhar\n'
           'This program comes with ABSOLUTELY NO WARRANTY\n'
           'This is free software, and you are welcome to redistribute it\n'
           'under certain conditions; type `--license` for details.\n'.format(version))
-    print(' _____   __    ____  ______\n'\
-          '/__  /  / /   / __ \/ ____/\n'\
-          '  / /  / /   / / / / / __  \n'\
-          ' / /__/ /___/ /_/ / /_/ /  \n'\
-          '/____/_____/\____/\____/   \n')
+    print('   ________  _____    _   ________________    ____  _____________   __\n'\
+          '  / ____/ / / /   |  / | / / ____/ ____/ /   / __ \/ ____/ ____/ | / /\n'\
+          ' / /   / /_/ / /| | /  |/ / / __/ __/ / /   / / / / / __/ __/ /  |/ / \n'\
+          '/ /___/ __  / ___ |/ /|  / /_/ / /___/ /___/ /_/ / /_/ / /___/ /|  /  \n'\
+          '\____/_/ /_/_/  |_/_/ |_/\____/_____/_____/\____/\____/_____/_/ |_/   \n')
     parser = argparse.ArgumentParser(
-        prog='logen', 
+        prog='changelogen', 
         usage='%(prog)s [options]')
     parser.add_argument(
         "-g", 
