@@ -49,3 +49,25 @@ add: export to PDF format
 ```sh
 python3 -m logen -g
 ```
+
+```sh
+CHANGELOGEN 1.1 Simple Changelog Generator for Github Log
+Copyright (C) 2021 Bengart Zakhar
+This program comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `--license` for details.
+
+   ________  _____    _   ________________    ____  _____________   __
+  / ____/ / / /   |  / | / / ____/ ____/ /   / __ \/ ____/ ____/ | / /
+ / /   / /_/ / /| | /  |/ / / __/ __/ / /   / / / / / __/ __/ /  |/ / 
+/ /___/ __  / ___ |/ /|  / /_/ / /___/ /___/ /_/ / /_/ / /___/ /|  /  
+\____/_/ /_/_/  |_/_/ |_/\____/_____/_____/\____/\____/_____/_/ |_/   
+
+usage: changelogen [options]
+
+optional arguments:
+  -h, --help      show this help message and exit
+  -g, --generate  Generate Changelog file from git logs
+  -o, --output    Save to file
+  -f, --format    Choose format md, txt
+  ```
