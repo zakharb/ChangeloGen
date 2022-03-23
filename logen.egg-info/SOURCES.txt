@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-logen.egg-info/PKG-INFO
-logen.egg-info/SOURCES.txt
-logen.egg-info/dependency_links.txt
-logen.egg-info/not-zip-safe
-logen.egg-info/top_level.txt
