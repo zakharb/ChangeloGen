@@ -35,21 +35,6 @@ pip install zlog-xxx.whl
 ## Usage
 </a>  
 
-- Use the following format when make commits
-```
-<type>: short message
-
-update: update Readme.md
-add: export to PDF format
-```
-
-- move to `git` folder
-
-- create `changelog.md`
-```sh
-python3 -m logen -g
-```
-
 ```sh
 CHANGELOGEN 1.1 Simple Changelog Generator for Github Log
 Copyright (C) 2021 Bengart Zakhar
@@ -71,3 +56,18 @@ optional arguments:
   -o, --output    Save to file
   -f, --format    Choose format md, txt
   ```
+
+- Use the following format when make commits
+```
+<type>: short message
+
+update: update Readme.md
+add: export to PDF format
+```
+
+- move to `git` folder
+
+- create `changelog.md`
+```sh
+python3 -m logen -g
+```
